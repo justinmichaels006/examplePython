@@ -5,7 +5,8 @@ from tweepy import Stream
 #Import the Spark entry point
 from pyspark.sql import SparkSession
 
-#Variables that contains the user credentials to access Twitter API
+# Variables that contains the user credentials to access Twitter API
+# https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html
 access_token = "add your token"
 access_token_secret = "add your token secret"
 consumer_key = "add your key"
